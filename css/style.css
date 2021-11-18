@@ -401,13 +401,17 @@ template {
   color: #333333;
 }
 
+.search__input:active, .search__input:focus {
+  outline: none;
+}
+
 .search__button {
   position: absolute;
   top: 0;
   right: 0;
   width: 65px;
   height: 100%;
-  bottom: none;
+  border: none;
   background-color: #EC1F46;
 }
 
