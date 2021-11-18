@@ -553,7 +553,7 @@ button {
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 576px) {
   .logo {
     width: 99px;
   }
