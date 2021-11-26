@@ -619,6 +619,13 @@ button {
   max-width: 728px;
 }
 
+.slider img {
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .slider-button {
   position: absolute;
   top: 50%;
@@ -746,9 +753,6 @@ button {
   .slider {
     width: 100%;
   }
-  .swiper {
-    height: 350px;
-  }
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
@@ -763,10 +767,10 @@ button {
     margin-bottom: 38px;
   }
   .slider {
-    width: 100%;
+    max-width: 700px;
   }
   .swiper {
-    height: 250px;
+    max-height: 180px;
   }
   .navbar-top {
     padding-top: 28px;
