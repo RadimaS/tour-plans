@@ -504,7 +504,7 @@ button {
 
 .breadcrumb-list__item:not(:last-child)::after {
   content: '/';
-  margin-right: 4px;
+  margin-right: 1px;
 }
 
 .breadcrumb-list__link {
@@ -661,16 +661,23 @@ button {
 @media (max-width: 992px) {
   .container {
     max-width: 700px;
+    margin-left: 30px;
   }
   .logo {
-    width: 132px;
+    width: 133px;
   }
   .navbar-top {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right: 3px;
+  }
+  .navbar-top .user__name {
+    padding-top: 5px;
+    margin-left: 19px;
   }
   .navbar__search {
     margin-left: auto;
+    margin-right: 70px;
   }
   .navbar-menu {
     padding-top: 22px;
@@ -758,6 +765,7 @@ button {
 @media (min-width: 320px) and (max-width: 576px) {
   .logo {
     width: 99px;
+    height: 14px;
   }
   .hotel {
     padding-top: 1px;
@@ -765,16 +773,41 @@ button {
   }
   .hotel-info {
     margin-bottom: 38px;
+    padding-left: 7px;
+  }
+  .stars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-width: 72px;
+    padding-right: 24px;
   }
   .slider {
     max-width: 700px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
   .swiper {
     max-height: 180px;
   }
+  .navbar {
+    height: 70px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
   .navbar-top {
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  .menu-button {
+    margin-top: 5px;
+  }
+  .breadcrumb {
+    padding-left: 7px;
+    padding-right: 7px;
   }
 }
 /*# sourceMappingURL=style.css.map */
