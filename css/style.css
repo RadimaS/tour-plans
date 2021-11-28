@@ -842,10 +842,6 @@ button {
     padding-top: 5px;
     margin-left: 19px;
   }
-  .navbar-bottom {
-    padding-left: 14px;
-    padding-right: 55px;
-  }
   .navbar__search {
     margin-left: auto;
     margin-right: 70px;
@@ -853,6 +849,8 @@ button {
   .navbar-menu {
     padding-top: 20px;
     padding-bottom: 22px;
+    padding-right: 16px;
+    padding-left: 13px;
   }
   .navbar-menu__link {
     font-size: 12px;
@@ -1016,7 +1014,11 @@ button {
     margin-bottom: 20px;
   }
   .swiper {
+<<<<<<< HEAD
     height: 100%;
+=======
+    max-height: 250px;
+>>>>>>> f605c3927d843547c571a916aba445948fe89501
   }
   .navbar {
     height: 70px;
