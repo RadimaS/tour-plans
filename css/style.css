@@ -904,9 +904,6 @@ button {
   .booking {
     width: 340px;
   }
-  .slider {
-    width: 100%;
-  }
   .map {
     width: 340px;
   }
@@ -925,6 +922,9 @@ button {
   .stars .images {
     margin-left: 2px;
   }
+  .hotel-slider {
+    width: 100%;
+  }
   .hotel-info {
     margin-top: 8px;
   }
@@ -934,6 +934,9 @@ button {
   .hotel-info__offer {
     margin-top: 0;
     padding: 3px 10px;
+  }
+  .reviews-slider__item {
+    max-width: 580px;
   }
 }
 
@@ -1013,7 +1016,7 @@ button {
             order: -1;
     margin-left: 0;
   }
-  .slider {
+  .hotel {
     width: 100%;
     height: 350px;
   }
@@ -1029,6 +1032,27 @@ button {
   }
   .map {
     width: 100%;
+  }
+  .reviews-slider__item {
+    padding: 0 30px 30px;
+  }
+  .reviews-slider__item::after, .reviews-slider__item::before {
+    display: none;
+  }
+  .reviews-slider__button {
+    top: 32px;
+  }
+  .reviews-slider__button--prev {
+    margin-left: -65px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .reviews-slider__button--next {
+    margin-right: -65px;
+    right: 50%;
+    -webkit-transform: translate(50%, 0);
+            transform: translate(50%, 0);
   }
 }
 
@@ -1055,7 +1079,7 @@ button {
     min-width: 72px;
     padding-right: 24px;
   }
-  .slider {
+  .hotel {
     max-width: 700px;
     height: 250px;
     padding-left: 7px;
@@ -1207,7 +1231,7 @@ button {
   border-radius: 8px;
   margin-top: 45px;
   padding: 0 62px 30px;
-  width: 730px;
+  max-width: 730px;
   margin: 45px auto 0;
 }
 
