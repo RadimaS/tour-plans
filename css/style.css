@@ -584,9 +584,9 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .stars {
@@ -1017,8 +1017,6 @@ button {
     height: 180px;
     padding-left: 7px;
     padding-right: 7px;
-  }
-  .hotel__slider {
     margin-bottom: 0;
   }
   .navbar {
@@ -1041,6 +1039,9 @@ button {
     padding: 17px 0;
   }
   .hotel-right {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     padding-left: 7px;
     padding-right: 7px;
   }
