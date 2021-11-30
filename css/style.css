@@ -620,6 +620,9 @@ button {
   min-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hotel img__button {
@@ -860,6 +863,7 @@ button {
 @media (max-width: 992px) {
   .container {
     max-width: 700px;
+    margin-left: 30px;
   }
   .newsletter-wrapper {
     max-width: 700px;
@@ -926,22 +930,11 @@ button {
   .stars .images {
     margin-left: 2px;
   }
-<<<<<<< HEAD
   .hotel-slider {
     width: 100%;
   }
   .hotel-info {
     margin-top: 8px;
-  }
-  .hotel-info__name {
-    margin: 0;
-=======
-  .booking {
-    max-height: 210px;
->>>>>>> 728c8ae0f004357ab42195875b265de2a8d84d5c
-  }
-  .map {
-    height: 210px;
   }
   .reviews-slider__item {
     max-width: 580px;
@@ -956,6 +949,12 @@ button {
   .card {
     width: 340px;
     height: 230px;
+  }
+  .booking {
+    max-height: 210px;
+  }
+  .map {
+    height: 210px;
   }
 }
 
@@ -1112,6 +1111,12 @@ button {
     height: 180px;
     padding-left: 7px;
     padding-right: 7px;
+  }
+  .hotel__slider {
+    margin-bottom: 20px;
+  }
+  .swiper {
+    max-height: 180px;
     margin-bottom: 0;
   }
   .navbar {
@@ -1130,7 +1135,6 @@ button {
     padding-left: 7px;
     padding-right: 7px;
   }
-<<<<<<< HEAD
   .newsletter {
     padding: 76px 0 83px 0;
   }
@@ -1142,6 +1146,19 @@ button {
   }
   .card {
     width: 100%;
+  }
+  .card-list {
+    padding: 17px 0;
+  }
+  .hotel-right {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .map {
+    height: 173px;
   }
 }
 
@@ -1456,20 +1473,5 @@ button {
   background-color: #EC1F46;
   border-radius: 4px;
   cursor: pointer;
-=======
-  .breadcrumb-list {
-    padding: 17px 0;
-  }
-  .hotel-right {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    padding-left: 7px;
-    padding-right: 7px;
-  }
-  .map {
-    height: 173px;
-  }
->>>>>>> 728c8ae0f004357ab42195875b265de2a8d84d5c
 }
 /*# sourceMappingURL=style.css.map */
