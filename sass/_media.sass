@@ -132,17 +132,67 @@
     width: 100%
   .map
     width: 100%
-@media ( min-width: 320px) and (max-width: 576px)
+// @media ( max-width: 320px) //and (max-width: 576px)
+//   .logo
+//     width: 99px
+//     height: 14px
+//   .hotel
+//     padding-top: 1px
+//     padding-bottom: 0
+//     &-info
+//       margin-bottom: 38px
+//       padding-left: 7px
+//       // padding-right: 22px
+//   .stars
+//     display: flex
+//     justify-content: space-between
+//     min-width: 72px
+//     padding-right: 24px
+//   .slider
+//     max-width: 700px
+//     height: 250px
+//     padding-left: 7px
+//     padding-right: 7px
+//   .hotel
+//     &__slider
+//       margin-bottom: 20px
+//   .swiper
+//     max-height: 180px
+//   .navbar
+//     height: 70px
+//     padding-left: 7px
+//     padding-right: 7px
+//     &-top
+//       padding-top: 22px
+//       padding-bottom: 22px
+//   .menu-button
+//     margin-top: 5px
+//   .breadcrumb
+//     padding-left: 7px
+//     padding-right: 7px
+//   .newsletter
+//     padding: 76px 0 83px 0
+//     &__title
+//       margin-bottom: 37px
+//   .subscribe
+//     width: 100%
+
+@media ( max-width: 320px) //and (max-width: 576px)
+  .container
+    margin: auto
+
   .logo
     width: 99px
     height: 14px
   .hotel
-    padding-top: 1px
+    padding-top: 3px
     padding-bottom: 0
+    // margin-top: 0
     &-info
+      margin: 0
       margin-bottom: 38px
       padding-left: 7px
-      // padding-right: 22px
+      
   .stars
     display: flex
     justify-content: space-between
@@ -150,14 +200,10 @@
     padding-right: 24px
   .slider
     max-width: 700px
-    height: 250px
+    height: 180px
     padding-left: 7px
     padding-right: 7px
-  .hotel
-    &__slider
-      margin-bottom: 20px
-  .swiper
-    max-height: 180px
+    margin-bottom: 0
   .navbar
     height: 70px
     padding-left: 7px
@@ -170,9 +216,30 @@
   .breadcrumb
     padding-left: 7px
     padding-right: 7px
+    &-list
+      padding: 17px 0
+  .hotel-right
+    justify-content: space-evenly
+    padding-left: 7px
+    padding-right: 7px
+  .map
+    height: 173px
   .newsletter
-    padding: 76px 0 83px 0
+    padding: 76px 0 83px 0 !important
+    &-title
+      &__strong
+        display: inline-block !important
+        font-size: 30px !important
+        line-height: 37px !important
+    &-wrapper
+      margin-right: 20px !important
+      margin-left: 20px !important
     &__title
+      margin-left: 8px
+      margin-top: 0
       margin-bottom: 37px
+    // &__subscribe
+    //   margin: 0 20px 0 20px !important
   .subscribe
-    width: 100%
+    width: 280px !important
+    // margin: 0 20px
