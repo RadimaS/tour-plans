@@ -1,20 +1,25 @@
 @media ( max-width:  1200px)
   .container
     max-width: 960px
-  .slider
-    width: 590px
-  .swiper
-    &-slide
+  .hotel
+    &__slider
+      width: 590px
+    &-slider
       &__image
         width: 100%
         height: 100%
         object-fit: cover
+  .card
+    width: 230px
+    height: 230px
 @media ( max-width:  992px)
   .container
     max-width: 700px
     margin-left: 30px
   .newsletter-wrapper
     max-width: 700px
+    // margin-left: 30px
+
   .logo
     width: 133px
   .navbar
@@ -26,15 +31,17 @@
         &__name
           padding-top: 5px
           margin-left: 19px
-    &-bottom
-      padding-left: 14px
-      padding-right: 55px
+    // &-bottom
+      // padding-left: 22px
+      // padding-right: 22px
     &__search
       margin-left: auto
       margin-right: 70px
     &-menu
       padding-top: 20px
       padding-bottom: 22px
+      padding-right: 16px
+      padding-left: 13px
       &__link
         font-size: 12px
         line-height: 15px
@@ -50,13 +57,12 @@
       flex-direction: row
   .booking
     width: 340px
-  .slider
-    width: 100%
+
   .map
     width: 340px
   .breadcrumb
-    &-list
-      padding: 20px 0
+    // &-list
+    //   padding: 20px 0
   .stars
     display: flex
     justify-content: flex-start
@@ -64,13 +70,33 @@
     .images
       margin-left: 2px
   .hotel
+    &-slider
+      width: 100%
     &-info
       margin-top: 8px
+    // &-info
+    //   margin-top: 8px
       &__name
         margin: 0
       &__offer
         margin-top: 0
         padding: 3px 10px
+  .reviews
+    &-slider
+      &__item
+        max-width: 580px
+  .activities
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      margin-bottom: 20px
+  .card
+    width: 340px
+    height: 250px
+  .booking
+    max-height: 210px
+  .map
+    height: 210px
 
 @media ( max-width: 768px)
   .container
@@ -121,17 +147,18 @@
       &__offer
         order: -1
         margin-left: 0
-  .slider
-    width: 100%
-    height: 350px
   .hotel
     &-right
       flex-direction: column
       min-height: 450px
+    &-slider
+    width: 100%
+    height: 350px
   .booking
     width: 100%
   .map
     width: 100%
+<<<<<<< HEAD
 // @media ( max-width: 320px) //and (max-width: 576px)
 //   .logo
 //     width: 99px
@@ -180,6 +207,32 @@
 @media ( max-width: 320px) //and (max-width: 576px)
   .container
     margin: auto
+=======
+
+  .reviews
+    &-slider
+      &__item
+        padding: 0 30px 30px
+        &::after, &::before
+          display: none
+      &__button
+        top: 32px
+        &--prev
+          margin-left: -65px
+          left: 50%
+          transform: translate(-50%, 0)
+        &--next
+          margin-right: -65px
+          right: 50%
+          transform: translate(50%, 0)
+  .activities
+    padding-top: 40px
+    padding-bottom: 60px
+  .card
+    width: 49%
+    height: 255px
+@media ( max-width: 320px) //and (max-width: 576px)
+>>>>>>> 3a65d7fd08c15b6822d676723ec9402c99f864c0
 
   .logo
     width: 99px
@@ -198,11 +251,24 @@
     justify-content: space-between
     min-width: 72px
     padding-right: 24px
+<<<<<<< HEAD
   .slider
+=======
+
+  .hotel
+    &__slider
+      margin-bottom: 20px
+    &-slider
+>>>>>>> 3a65d7fd08c15b6822d676723ec9402c99f864c0
     max-width: 700px
     height: 180px
     padding-left: 7px
     padding-right: 7px
+<<<<<<< HEAD
+=======
+  .swiper
+    max-height: 180px
+>>>>>>> 3a65d7fd08c15b6822d676723ec9402c99f864c0
     margin-bottom: 0
   .navbar
     height: 70px
@@ -241,5 +307,20 @@
     // &__subscribe
     //   margin: 0 20px 0 20px !important
   .subscribe
+<<<<<<< HEAD
     width: 280px !important
     // margin: 0 20px
+=======
+    width: 100%
+  .card
+    width: 100%
+    &-list
+      padding: 17px 0
+  .hotel-right
+    justify-content: space-evenly
+    padding-left: 7px
+    padding-right: 7px
+  .map
+    height: 173px
+
+>>>>>>> 3a65d7fd08c15b6822d676723ec9402c99f864c0
